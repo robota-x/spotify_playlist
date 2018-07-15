@@ -59,10 +59,12 @@ class SpotifyClient:
         return [{'id': track['id'], 'name': track['name']} for track in track_blob]
 
 
-# # sample queries
-# client = SpotifyClient()
+def lambda_handler(event, _):
+    # client = SpotifyClient()
 
-# artist_id = client.get_artist_by_name('Lady gaga')
-# top_songs = client.get_top_songs_by_artist_id(artist_id)
+    # artist_id = client.get_artist_by_name('Lady gaga')
+    # top_songs = client.get_top_songs_by_artist_id(artist_id)
 
-# print(top_songs)
+    # print(top_songs)
+
+
